@@ -1,7 +1,58 @@
+*{
+    box-sizing: border-box;
+}
 
+body {
+    background-image: url("../images/crest.jpg");
+    background-size: 500px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    padding: 1%;
+    background-color: black;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
 
 .container {
 	width: 80%;
-    margin: 0;
+    align-self: center;
     text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+
+button {
+    background-color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+    margin: 2%;
+    position: relative;
+}
+
+#game {
+    background-color: black;
+    color:whitesmoke;
+    margin-bottom: 2%;
+    
+}
+
+#countdown {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+#timer {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input {
+    margin: 10px;
 }
