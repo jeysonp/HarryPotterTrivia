@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Harry Potter Trivia Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+  <script
+    src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <div id="start">
+        <button id="playButton">PLAY</button>
+    </div>
+
+    <div id="timer"> You have 2 minutes!
+      <p></p>
+      
+    <span id="countdown"></span></div>
+    <p></p>
+
+    <div id="game">
+      <div class="questions">
+
+        <p><strong>How does Harry manage to breathe underwater during the second task of the TriWizard Tournament?</strong>
+        </p>
+        
+        <input type="radio" value="x"> He Transfigures to a shark
+        
+        <input type="radio" value="x"> He kisses a mermaid
+        
+        <input type="radio" value="gillyweed"> He eats gillyweed
+        
+        <input type="radio" value="x"> He performs a bubble-head charm
+        
+        <p></p>
+        
+        <p><strong>What is the name of Fred and George's joke shop?</strong>
+        </p>
+        
+        <input type="radio" value="x"> Weasley Joke Emporium
+        
+        <input type="radio" value="wheezes"> Weaslys Wizard Wheezes
+        
+        <input type="radio" value="x"> Fred & George's Wonder Emporium
+        
+        <input type="radio" value="x"> Zonko's Joke Shop
+        
+        <p></p>
+
+        <p><strong>Which of these is NOT one of the Unforgivable Curses?</strong>
+        </p>
+        
+        <input type="radio" value="x"> Cruciatus Curse
+        
+        <input type="radio" value="x"> Imperius Curse
+        
+        <input type="radio" value="sectum"> Sectumsempra
+        
+        <input type="radio" value="x"> Avarda Kedavra
+        
+        <p></p>
+
+        <p><strong>Who played Lord Voldemort in the movies?</strong>
+        </p>
+        
+        <input type="radio" value="x"> Jeremy Irons
+        
+        <input type="radio" value="x"> Tom Hiddleston
+        
+        <input type="radio" value="x"> Gary Oldman
+        
+        <input type="radio" value="ralph"> Ralph Fiennes
+        
+        <p></p>
+
+        <p><strong>Who guards the entrance to the Gryffindor common room?</strong>
+        </p>
+        
+        <input type="radio" value="x"> The Grey Lady
+        
+        <input type="radio" value="x"> The Fat Friar
+        
+        <input type="radio" value="x"> The Bloody Baron
+        
+        <input type="radio" value="fat"> The Fat Lady
+        
+        <p></p>  
+
+      </div>
+        <button id="done">DONE</button>
+    </div>
+    <div id="totals">
+        <h2>Your Score</h2>
+        <p>Right: <span id="right">0</span></p>
+        <p>Wrong: <span id="wrong">0</span></p>
+        <p>Unanswered: <span id="blank">0</span></p>
+        <button id="restart">Whould you like to try again?</button>
+    </div>
+</div>
+
+  <script src="assets/javascript/app.js"></script>
+</body>
+</html>
